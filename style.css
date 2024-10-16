@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: navy;
+}
+.container
+{
+    background-color: white;
+    margin: 20px auto;
+}
+.btn
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 50%;
+    height: auto;
+}
+.btn:hover
+{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.form-control
+{
+    width: 80%;
+    height: auto;
+    border: 1px solid navy;
+}
+.imagecol
+{
+    padding: 5%;
+}
+.imagecol img
+{
+    width: 100%;
+}
+.formcol
+{
+    padding: 5%;
+}
+.formcol h2
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.buttondiv a
+{
+    text-decoration: none;
+}
+
+
+@media (max-width: 576px)
+{
+    body
+    {
+        background-color: white;
+    }
+    .container
+    {
+        padding: 10px;
+        margin: 10px; 
+    }
+
+    .imagecol, .formcol
+    {
+        padding: 3%;
+    }
+
+    .form-control
+    {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+
+    .btn
+    {
+        width: 100%; 
+    }
+
+    .formcol h2
+    {
+        font-size: 1.5rem; 
+        text-align: center; 
+    }
+
+    .buttondiv
+    {
+        text-align: center; 
+    }
+}
+
+@media (max-width: 576px) and (min-width: 300px) {
+body
+{
+background-color: white;
+}
+.container
+{
+padding: 5px;
+margin: 5px;
+}
+
+.imagecol, .formcol
+{
+padding: 5%; 
+}
+
+.form-control
+{
+width: 100%;
+margin-bottom: 10px; 
+}
+
+.btn
+{
+width: 100%;
+}
+
+.formcol h2
+{
+font-size: 1.7rem; 
+text-align: center; 
+}
+
+.buttondiv
+{
+text-align: center; 
+}
+
+label
+{
+font-size: 0.9rem;
+}
+}
